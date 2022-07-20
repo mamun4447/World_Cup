@@ -255,8 +255,10 @@ footer hr {
         margin: 0;
         padding: 0;
         background-color: #ffffff;
+        width: 350px;
     }
     header {
+        margin-left: 2px;
         width: 334px;
         flex-direction: column;
         text-align: center;
@@ -278,6 +280,7 @@ footer hr {
     }
     /* Navigation  */
     main {
+        margin-left: 2px;
         flex-direction: column;
     }
     .nav {
@@ -327,12 +330,16 @@ footer hr {
     }
     .nav {
         position: static;
+        display: inline-block;
+        vertical-align: middle;
+        width: 734px;
+        height: 50px;
+        margin-top: 10px;
+        background-color: #ffffff;
     }
-    .nav a {
-        vertical-align: baseline;
-    }
+    .nav a {}
     .blogs {
-        width: 834px;
+        width: 734px;
         grid-template-columns: repeat(2, 1fr);
         justify-content: center;
         align-items: center;
