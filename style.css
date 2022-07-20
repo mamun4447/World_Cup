@@ -287,12 +287,66 @@ footer hr {
     .blogs {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
     }
     /* Footer  */
+    footer {
+        width: 300px;
+    }
     footer .anchors a {
         display: flex;
         flex-direction: column;
         font-size: 10px;
         text-align: center;
+    }
+}
+
+@media screen and (min-width:601px) and (max-width: 900px) {
+    /* Header  */
+    header {
+        width: 734px;
+    }
+    .header_img img {
+        width: 323px;
+        height: 340px;
+    }
+    .header_text p {
+        font-size: 14px;
+    }
+    .header_text a {
+        margin-bottom: 20px;
+    }
+    /* Main 
+    Nav */
+    main {
+        width: 734px;
+        flex-direction: column;
+    }
+    .nav {
+        position: static;
+    }
+    .nav a {
+        vertical-align: baseline;
+    }
+    .blogs {
+        width: 834px;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+        align-items: center;
+    }
+    .blog {
+        margin-left: 10px;
+    }
+    /* Footer  */
+    footer {
+        width: 734px;
+        ;
+    }
+    .anchors {
+        width: 600px;
+        text-align: center;
+    }
+    .anchors a {
+        padding: 20px 0px;
     }
 }
