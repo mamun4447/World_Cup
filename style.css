@@ -337,7 +337,6 @@ footer hr {
         margin-top: 10px;
         background-color: #ffffff;
     }
-    .nav a {}
     .blogs {
         width: 734px;
         grid-template-columns: repeat(2, 1fr);
