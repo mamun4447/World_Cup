@@ -1,7 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Arima:wght@300&family=Finlandica:ital,wght@1,400;1,500&family=Gulzar&family=Lobster&family=Montserrat&family=Nunito:wght@200&family=Poppins&family=Roboto+Condensed:wght@400;700&display=swap");
 body {
     margin: 0;
     padding: 0;
     background-color: #ffffff;
+    font-family: "Arima", cursive;
+    font-family: "Finlandica", sans-serif;
+    font-family: "Gulzar", serif;
+    font-family: "Lobster", cursive;
+    font-family: "Montserrat", sans-serif;
+    font-family: "Nunito", sans-serif;
+    font-family: "Poppins", sans-serif;
+    font-family: "Roboto Condensed", sans-serif;
 }
 
 
@@ -61,7 +70,7 @@ header {
     left: 0;
     background: #fff;
     z-index: -1;
-    transition: .5s;
+    transition: 0.5s;
     border-radius: 5px;
 }
 
@@ -135,7 +144,7 @@ main {
     flex-direction: column;
     margin: 12px;
     width: 312px;
-    border: .5px solid gray;
+    border: 0.5px solid gray;
     border-radius: 10px;
 }
 
@@ -222,7 +231,7 @@ footer hr {
     border: 1px solid gray;
     margin: 12px;
     width: 312px;
-    border: .5px solid gray;
+    border: 0.5px solid gray;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
@@ -307,7 +316,7 @@ footer hr {
     }
 }
 
-@media screen and (min-width:601px) and (max-width: 900px) {
+@media screen and (min-width: 601px) and (max-width: 900px) {
     /* Header  */
     header {
         width: 734px;
@@ -349,7 +358,6 @@ footer hr {
     /* Footer  */
     footer {
         width: 734px;
-        ;
     }
     .anchors {
         width: 600px;
